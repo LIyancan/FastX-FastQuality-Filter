@@ -22,4 +22,6 @@ done;
 
 echo "done"
 
-## 
+## FastX trimmer and FastQuality filter
+## It intakes .gz file and trim 15 bases from 5' end and 5 bases from 3' end (read length of 100 bases)
+## Then piped to do a quality filter
